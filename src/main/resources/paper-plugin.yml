@@ -1,0 +1,7 @@
+name: GuppyLottery
+version: '${project.version}'
+main: com.guppystudios.guppylottery.GuppyLottery
+api-version: '1.20'
+depend: [PlaceholderAPI]
+author: tenshiku
+description: A Minecraft Lottery plugin

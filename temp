@@ -1,0 +1,23 @@
+Commands:
+/lottery
+/lottery buy {amount}
+/lottery stats
+/lottery donate {amount}
+
+Staff (Mods?)
+/lottery start {starting amount} {bid amount}
+/lottery refund {player} {amount}
+
+Admin
+/lottery reload
+
+
+Messages:
+prefix: "&8[&6GuppyLottery&8] &r"
+buyTicket: &e{name} &fhas bought &e{amount} &flottery tickets!
+donatePot: &e{winner} &fhas donated &e{amount} &fto the pot!
+winner: &fThe winner of this round is &e{name}&f!
+potAmount: &fThe current pot is &e{potTotal}&f!
+notEnough: &cYou do not have enough money to participate!
+countdown: &fThe lottery will be drawn in &e{timeLeft}&f!
+reload: &aPlugin reloaded!
